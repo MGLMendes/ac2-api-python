@@ -24,7 +24,7 @@ tasksJSON = json.dumps(tasks)
 
 @app.route('/teste', methods=['GET'])
 def hello_world():
-    return tasksJSON, 401
+    return tasksJSON, 200
 
 if __name__ == '__main__':
     app.run()
